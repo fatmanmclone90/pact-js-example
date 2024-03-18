@@ -46,8 +46,11 @@ npm run publish:pact
 
 Consumers will publish separate contracts for the same provider.
 
+## Jest-Pact
+
+For similar example but using Jest-Pact [see](https://github.com/fatmanmclone90/pact-js-jest-example/).
+
 ## To Do
 
-- Investigate [Jest-Pact](https://www.npmjs.com/package/jest-pact)
 - Fix versioning before publish.  `npm run publish:pact` failing to update version before publishing.
 - Investigate why JEST command is not exiting gracefully.  Requiring `--force-exit`
